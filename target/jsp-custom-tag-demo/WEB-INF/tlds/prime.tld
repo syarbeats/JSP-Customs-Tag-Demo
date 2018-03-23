@@ -16,12 +16,24 @@
   
   <tag>
     <description>Outputs an N-digit prime</description>
-    <name>prime</name>
+    <name>primeAtrribute</name>
     <tag-class>com.cdc.mitrais.custom.tags.PrimeTag</tag-class>
     <body-content>empty</body-content>
     <attribute>
       <description>N (prime number length)</description>
       <name>length</name>
+      <required>false</required>
+    </attribute>
+  </tag>
+  
+  <tag>
+    <description>Outputs an N-digit prime</description>
+    <name>primeAnotherAtrribute</name>
+    <tag-class>com.cdc.mitrais.custom.tags.PrimeTag</tag-class>
+    <body-content>empty</body-content>
+    <attribute>
+      <description>N (prime number length)</description>
+      <name>size</name>
       <required>false</required>
     </attribute>
   </tag>
